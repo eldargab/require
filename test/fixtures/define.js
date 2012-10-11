@@ -5,7 +5,3 @@ require.register('foo', function(module, exports, require){
 require.register('bar', function(module, exports, require){
   module.exports = 'bar';
 });
-
-require.register('baz', function(module, exports, require){
-  module.exports = require('bar');
-});

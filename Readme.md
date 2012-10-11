@@ -10,7 +10,7 @@ $ npm install
 $ make test
 ```
 
-## License 
+## License
 
 (The MIT License)
 

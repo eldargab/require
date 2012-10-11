@@ -60,6 +60,12 @@ describe('require.register(name, fn)', function(){
     ret.should.equal('baz');
   })
 
+  it('should support globals', function () {
+    var js = fixture('global.js')
+    var ret = eval(js + 'require("baz")', {})
+    ret.should.equal('bar')
+  })
+
   it('should report errors relative to the parent', function(done){
     try {
       var js = fixture('error.js');
