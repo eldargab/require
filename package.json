@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Client side require implementation",
   "keywords": ["require", "component"],
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "author": "Eldar Gabdullin <eldargab@gmail.com>",
   "dependencies": {},
   "devDependencies": {
     "mocha": "*",

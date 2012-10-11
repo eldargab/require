@@ -10,6 +10,6 @@ require.register('foo/bar/index.js', function(module, exports, require){
   module.exports = require('./baz');
 });
 
-require.register('foo/bar/baz/index.js', function(module, exports, require){
+require.register('foo/bar/baz/index', function(module, exports, require){
   module.exports = 'baz';
 });
